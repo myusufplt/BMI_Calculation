@@ -7,10 +7,9 @@ Screen.minsize(width=300,height=350)
 
 #Tepe Yazisi
 upText = Label(text="BMI Calculator",font=('Arial',20))
-upText.config(pady=10)
 upText.pack()
 upTextBrother = Label(text="please enter correcty" , font=('Arial',10))
-upTextBrother.place(x=100,y=35)
+upTextBrother.place(x=80,y=35)
 
 #Kilo Sorma
 weightLabel = Label(text="How much do you weight(kg) ?")
